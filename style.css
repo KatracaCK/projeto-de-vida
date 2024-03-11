@@ -71,7 +71,7 @@ body {
 }
 
 .ativo{
-    background-color: greenyellow
+    background-color: greenyellow;
     var(--botao-ativo)
     border-bottom: 4px solid var(--verde);
 }
