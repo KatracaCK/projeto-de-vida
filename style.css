@@ -3,7 +3,7 @@
     --cor-de-fundo: #1E1E1E;
     --verde: #6FFF57;
     --branco: #FFFFFF;
-    --botao-ativo: #3A375E;
+    --botao-ativo: #5446ee;
     --botao-inativo: rgba(58, 55, 94, 0.5);
     --texto-fundo: rgba(58, 55, 94, 0.3);
 }
@@ -71,8 +71,7 @@ body {
 }
 
 .ativo{
-    background-color: greenyellow;
-    var(--botao-ativo)
+    background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
 }
 
